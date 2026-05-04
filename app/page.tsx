@@ -10,7 +10,13 @@ const products = [
 export default function Home() {
   return (
     <main style={{ fontFamily: "Arial, sans-serif", background: "#0f0f0f", color: "#eee", minHeight: "100vh" }}>
-      <section style={{ padding: "60px 30px", maxWidth: "1100px", margin: "0 auto" }}>
+      <section style={{ padding: "50px 30px 60px", maxWidth: "1100px", margin: "0 auto" }}>
+        <img
+          src="/logo.png"
+          alt="G-Works Logo"
+          style={{ width: "260px", maxWidth: "80%", marginBottom: "30px" }}
+        />
+
         <p style={{ color: "#ff6600", fontWeight: "bold", letterSpacing: "2px" }}>G-WORKS RC UPGRADE PARTS</p>
         <h1 style={{ fontSize: "52px", margin: "10px 0", lineHeight: 1.05 }}>
           Funktionale Upgrade-Teile für die Volantex ASW 28 V2
