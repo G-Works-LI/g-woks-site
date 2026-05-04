@@ -13,7 +13,7 @@ export default function Home() {
         Fokus auf typische Schwachstellen der ASW 28 V2.
       </p>
 
-      <img src="/images/Modell ASW 28 V2 Volantex.jpg" style={{ width: "500px", marginTop: "20px" }} />
+      <img src="/images/modell asw 28 v2 volantex.jpg" style={{ width: "500px", marginTop: "20px" }} />
 
       <hr />
 
@@ -24,39 +24,46 @@ export default function Home() {
         {/* Winglet */}
         <div style={{ width: "300px", border: "1px solid #333", padding: "10px" }}>
           <h3>Winglet System</h3>
-          <img src="/images/Winglet mit Adapter.jpg" style={{ width: "100%" }} />
+          <img src="/images/winglet mit adapter.jpg" style={{ width: "100%" }} />
           <p>Schneller Austausch und verbesserte Stabilität</p>
         </div>
 
         {/* Haube */}
         <div style={{ width: "300px", border: "1px solid #333", padding: "10px" }}>
           <h3>Haubensicherung</h3>
-          <img src="/images/Haubenbefestigung hinten.jpg" style={{ width: "100%" }} />
+          <img src="/images/haubenbefestigung hinten.jpg" style={{ width: "100%" }} />
           <p>Mechanische Sicherung mit Federmechanik</p>
         </div>
 
         {/* Ruderhorn */}
         <div style={{ width: "300px", border: "1px solid #333", padding: "10px" }}>
           <h3>Ruderhorn</h3>
-          <img src="/images/Ruderhornbefestigung.jpg" style={{ width: "100%" }} />
+          <img src="/images/ruderhornbefestigung.jpg" style={{ width: "100%" }} />
           <p>Verstärkte Befestigung für höhere Belastung</p>
         </div>
 
         {/* Spinner */}
         <div style={{ width: "300px", border: "1px solid #333", padding: "10px" }}>
           <h3>Spinner</h3>
-          <img src="/images/Spinner mit Nase.jpg" style={{ width: "100%" }} />
+          <img src="/images/spinner mit nase.jpg" style={{ width: "100%" }} />
           <p>Ersatz- und Designteil</p>
         </div>
 
         {/* Pins */}
         <div style={{ width: "300px", border: "1px solid #333", padding: "10px" }}>
           <h3>Canopy Pins</h3>
-          <img src="/images/Canopystifte.jpg" style={{ width: "100%" }} />
+          <img src="/images/canopystifte.jpg" style={{ width: "100%" }} />
           <p>Sollbruchstelle zum Schutz des Modells</p>
         </div>
 
       </div>
+
+      <hr />
+
+      <h2>Weitere Details</h2>
+
+      <img src="/images/winglet links und rechts.jpg" style={{ width: "300px", marginRight: "10px" }} />
+      <img src="/images/spinner original und gworks.jpg" style={{ width: "300px" }} />
 
       <hr />
 
