@@ -13,7 +13,7 @@ export default function Home() {
         Fokus auf typische Schwachstellen der ASW 28 V2.
       </p>
 
-      <img src="/images/modell asw 28 v2 volantex.jpg" style={{ width: "500px", marginTop: "20px" }} />
+      <img src="/images/modell-asw-28-v2-volantex.jpg" style={{ width: "500px", marginTop: "20px" }} />
 
       <hr />
 
@@ -24,15 +24,22 @@ export default function Home() {
         {/* Winglet */}
         <div style={{ width: "300px", border: "1px solid #333", padding: "10px" }}>
           <h3>Winglet System</h3>
-          <img src="/images/winglet mit adapter.jpg" style={{ width: "100%" }} />
+          <img src="/images/winglet-mit-adapter.jpg" style={{ width: "100%" }} />
           <p>Schneller Austausch und verbesserte Stabilität</p>
         </div>
 
-        {/* Haube */}
+        {/* Haube hinten */}
         <div style={{ width: "300px", border: "1px solid #333", padding: "10px" }}>
-          <h3>Haubensicherung</h3>
-          <img src="/images/haubenbefestigung hinten.jpg" style={{ width: "100%" }} />
+          <h3>Haubensicherung hinten</h3>
+          <img src="/images/haubenbefestigung-hinten.jpg" style={{ width: "100%" }} />
           <p>Mechanische Sicherung mit Federmechanik</p>
+        </div>
+
+        {/* Haube vorne */}
+        <div style={{ width: "300px", border: "1px solid #333", padding: "10px" }}>
+          <h3>Haubensicherung vorne</h3>
+          <img src="/images/haubenbefestigung-vorne.jpg" style={{ width: "100%" }} />
+          <p>Zusätzliche Sicherung zum Aufkleben</p>
         </div>
 
         {/* Ruderhorn */}
@@ -45,7 +52,7 @@ export default function Home() {
         {/* Spinner */}
         <div style={{ width: "300px", border: "1px solid #333", padding: "10px" }}>
           <h3>Spinner</h3>
-          <img src="/images/spinner mit nase.jpg" style={{ width: "100%" }} />
+          <img src="/images/spinner-mit-nase.jpg" style={{ width: "100%" }} />
           <p>Ersatz- und Designteil</p>
         </div>
 
@@ -62,8 +69,8 @@ export default function Home() {
 
       <h2>Weitere Details</h2>
 
-      <img src="/images/winglet links und rechts.jpg" style={{ width: "300px", marginRight: "10px" }} />
-      <img src="/images/spinner original und gworks.jpg" style={{ width: "300px" }} />
+      <img src="/images/winglet-links-und-rechts.jpg" style={{ width: "300px", marginRight: "10px" }} />
+      <img src="/images/spinner-original-und-gworks.jpg" style={{ width: "300px" }} />
 
       <hr />
 
