@@ -57,7 +57,7 @@ export default function Home() {
           <img
             src="/images/modell-asw-28-v2-volantex.jpg"
             alt="Volantex ASW 28 V2"
-            style={{ width: "100%", maxWidth: "700px", marginTop: "40px", borderRadius: "14px", border: "1px solid #333", boxShadow: "0 20px 60px rgba(0,0,0,0.55)" }}
+            style={{ width: "100%", maxWidth: "700px", marginTop: "40px", borderRadius: "14px", border: "1px solid #333", boxShadow: "0 30px 80px rgba(0,0,0,0.7)" }}
           />
         </div>
       </section>
