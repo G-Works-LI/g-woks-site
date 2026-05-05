@@ -145,22 +145,65 @@ export default function Home() {
       <h3>{kit.title}</h3>
 
       {kit.title === "Performance Kit" && (
-        <p style={{ color: "#ff6600", fontWeight: "bold" }}>Empfohlen</p>
-      )}
-
-      <ul style={{ color: "#ccc", paddingLeft: "20px" }}>
-        {kit.items.map((item) => (
-          <li key={item}>{item}</li>
-        ))}
-      </ul>
+    <div style={{
+      position: "absolute",
+      top: "10px",
+      right: "10px",
+      background: "#ff6600",
+      color: "#000",
+      padding: "5px 10px",
+      borderRadius: "8px",
+      fontSize: "12px",
+      fontWeight: "bold"
+    }}>
+      Empfohlen
     </div>
+  )}
+
+  <ul style={{ color: "#ccc", paddingLeft: "20px" }}>
+    {kit.items.map((item) => (
+      <li key={item}>{item}</li>
+    ))}
+  </ul>
+</div>
   </div>
 ))}
           </div>
 
-          <p style={{ marginTop: "25px", color: "#ff6600", fontWeight: "bold", textAlign: "center", fontSize: "18px" }}>
-            Preise & Händlerkonditionen auf Anfrage
-          </p>
+          <p style={{
+  marginTop: "25px",
+  color: "#ff6600",
+  fontWeight: "bold",
+  textAlign: "center",
+  fontSize: "18px"
+}}>
+  Jetzt Händler werden oder direkt anfragen
+</p>
+<div style={{ textAlign: "center", marginTop: "20px" }}>
+  <a
+    href="#kontakt"
+    style={{
+      display: "inline-block",
+      padding: "14px 28px",
+      background: "#ff6600",
+      color: "#000",
+      fontWeight: "bold",
+      borderRadius: "12px",
+      textDecoration: "none",
+      transition: "all 0.2s ease"
+    }}
+    onMouseOver={(e) => {
+      e.currentTarget.style.transform = "scale(1.05)";
+      e.currentTarget.style.boxShadow = "0 10px 25px rgba(255,102,0,0.4)";
+    }}
+    onMouseOut={(e) => {
+      e.currentTarget.style.transform = "scale(1)";
+      e.currentTarget.style.boxShadow = "none";
+    }}
+  >
+    Händleranfrage starten
+  </a>
+</div>
         </div>
       </section>
 
