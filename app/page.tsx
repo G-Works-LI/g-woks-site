@@ -77,7 +77,7 @@ export default function Home() {
           Kontaktieren Sie uns direkt.
         </p>
 
-        <a href="mailto:fabian.graf@live.de" style={{
+        <a href="mailto:meine-mail@live.de" style={{
           display: "inline-block",
           marginTop: "25px",
           padding: "14px 24px",
