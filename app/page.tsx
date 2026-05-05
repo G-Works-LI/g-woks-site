@@ -25,7 +25,7 @@ export default function Home() {
   padding: "10px",
   fontWeight: "bold"
 }}>
-  Diese Seite befindet sich aktuell im Aufbau – Inhalte und Produkte werden laufend erweitert.
+  Diese Seite befindet sich aktuell im Aufbau – Inhalte, Produkte und Fotos werden laufend erweitert.
 </div>
 
       {/* HEADER */}
