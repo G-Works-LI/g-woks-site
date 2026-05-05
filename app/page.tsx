@@ -156,7 +156,7 @@ export default function Home() {
           <p style={{ color: "#ff6600", fontWeight: "bold" }}>
             Musterteile, Paketvarianten und Kleinserien nach Absprache möglich.
           </p>
-          <a href="mailto:deine-email@example.com" style={buttonPrimary}>E-Mail senden</a>
+          <a href="mailto:gworks.rc@gmail.com" style={buttonPrimary}>E-Mail senden</a>
         </div>
       </section>
     </main>
