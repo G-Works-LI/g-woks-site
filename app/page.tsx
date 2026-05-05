@@ -1,3 +1,5 @@
+"use client";
+import { useState } from "react";
 const products = [
   { title: "Winglet Schnellwechsel-System", text: "Servicefreundlicher Austausch nach Transport oder Beschädigung.", image: "/images/winglet-mit-adapter.jpg" },
   { title: "Haubensicherung hinten", text: "Mechanische Sicherung mit Federmechanik für zuverlässigen Halt.", image: "/images/haubenbefestigung-hinten.jpg" },
@@ -21,6 +23,8 @@ const kits = [
 ];
 
 export default function Home() {
+  const [hovered, setHovered] = useState<string | null>(null);
+  
   return (
     <main style={{ fontFamily: "Arial", background: "#0b0b0b", color: "#eee", minHeight: "100vh" }}>
       <div style={{ background: "#ff6600", color: "#000", textAlign: "center", padding: "10px", fontWeight: "bold" }}>
@@ -101,17 +105,57 @@ export default function Home() {
 
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "20px", marginTop: "30px" }}>
             {kits.map((kit) => (
-              <div key={kit.title} style={{ background: "#181818", borderRadius: "14px", overflow: "hidden", border: kit.title === "Performance Kit" ? "2px solid #ff6600" : "1px solid #2a2a2a" }}>
-                <img src={kit.image} alt={kit.title} style={{ width: "100%", height: "220px", objectFit: "cover" }} />
-                <div style={{ padding: "20px" }}>
-                  <h3>{kit.title}</h3>
-                  {kit.title === "Performance Kit" && <p style={{ color: "#ff6600", fontWeight: "bold" }}>Empfohlen</p>}
-                  <ul style={{ color: "#ccc", paddingLeft: "20px" }}>
-                    {kit.items.map((item) => <li key={item}>{item}</li>)}
-                  </ul>
-                </div>
-              </div>
-            ))}
+  <div
+    key={kit.title}
+    onMouseEnter={() => setHovered(kit.title)}
+    onMouseLeave={() => setHovered(null)}
+    style={{
+      background: "#181818",
+      borderRadius: "14px",
+      overflow: "hidden",
+      border:
+        kit.title === "Performance Kit"
+          ? "2px solid #ff6600"
+          : "1px solid #2a2a2a",
+      transform:
+        hovered === kit.title
+          ? "translateY(-8px) scale(1.02)"
+          : "translateY(0)",
+      boxShadow:
+        hovered === kit.title
+          ? "0 20px 40px rgba(255,102,0,0.22)"
+          : "none",
+      transition: "all 0.25s ease",
+      cursor: "pointer",
+    }}
+  >
+    <img
+      src={kit.image}
+      alt={kit.title}
+      style={{
+        width: "100%",
+        height: "220px",
+        objectFit: "cover",
+        transform: hovered === kit.title ? "scale(1.05)" : "scale(1)",
+        transition: "all 0.3s ease",
+      }}
+    />
+
+    <div style={{ padding: "20px" }}>
+      <h3>{kit.title}</h3>
+
+      {kit.title === "Performance Kit" && (
+        <p style={{ color: "#ff6600", fontWeight: "bold" }}>Empfohlen</p>
+      )}
+
+      <ul style={{ color: "#ccc", paddingLeft: "20px" }}>
+        {kit.items.map((item) => (
+          <li key={item}>{item}</li>
+        ))}
+      </ul>
+    </div>
+  </div>
+))}
           </div>
 
           <p style={{ marginTop: "25px", color: "#ff6600", fontWeight: "bold", textAlign: "center", fontSize: "18px" }}>
