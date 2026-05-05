@@ -13,22 +13,26 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "G-Works RC Upgrade Parts",
+  title: "G-Works – RC Upgrade Parts",
   description: "Funktionale Upgrade- und Ersatzteile für die Volantex ASW 28 V2.",
   icons: {
-    icon: "/logo.png",
+    icon: "/logo.svg",
   },
   openGraph: {
-    title: "G-Works RC Upgrade Parts",
-    description: "Upgrade- und Ersatzteile für die Volantex ASW 28 V2.",
+    title: "G-Works – RC Upgrade Parts",
+    description: "Praxisnahe 3D-gedruckte Upgrade-Teile für die ASW 28 V2.",
+    url: "https://g-works-site.vercel.app",
+    siteName: "G-Works",
     images: [
       {
-        url: "/logo.png",
+        url: "/preview.png",
         width: 1200,
         height: 630,
-        alt: "G-Works Logo",
+        alt: "G-Works RC Upgrade Parts",
       },
     ],
+    locale: "de_DE",
+    type: "website",
   },
 };
 

@@ -28,7 +28,7 @@ export default function Home() {
       </div>
 
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "20px 30px", borderBottom: "1px solid #222", background: "#0b0b0b" }}>
-        <img src="/logo.png" alt="G-Works Logo" style={{ width: "150px" }} />
+        <img src="/logo.svg" alt="G-Works Logo" style={{ height: "46px" }} />
         <a href="#kontakt" style={{ background: "#ff6600", padding: "10px 14px", borderRadius: "10px", textDecoration: "none", fontWeight: "bold", color: "#000" }}>
           Kontakt
         </a>
@@ -49,7 +49,7 @@ export default function Home() {
           <p style={{ fontSize: "20px", color: "#ff6600", fontWeight: "bold" }}>
             Speziell entwickelt zur Behebung typischer Schwachstellen
           </p>
-          <p style={{ fontSize: "18px", color: "#bbb", maxWidth: "700px" }}>
+          <p style={{ fontSize: "18px", color: "#ccc", maxWidth: "700px" }}>
             Praxiserprobte 3D-gedruckte Zubehörteile für bessere Haltbarkeit,
             einfachere Wartung und mehr Sicherheit.
           </p>
@@ -69,7 +69,7 @@ export default function Home() {
             {benefits.map(([title, text]) => (
               <div key={title} style={{ background: "#181818", padding: "20px", borderRadius: "14px", border: "1px solid #2a2a2a" }}>
                 <h3 style={{ color: "#ff6600" }}>{title}</h3>
-                <p style={{ color: "#bbb" }}>{text}</p>
+                <p style={{ color: "#ccc" }}>{text}</p>
               </div>
             ))}
           </div>
@@ -84,7 +84,7 @@ export default function Home() {
               <img src={p.image} alt={p.title} style={{ width: "100%", height: "200px", objectFit: "cover" }} />
               <div style={{ padding: "15px" }}>
                 <h3>{p.title}</h3>
-                <p style={{ color: "#bbb" }}>{p.text}</p>
+                <p style={{ color: "#ccc" }}>{p.text}</p>
               </div>
             </div>
           ))}
@@ -94,7 +94,7 @@ export default function Home() {
       <section style={{ padding: "70px 30px", background: "#111" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <h2 style={{ fontSize: "34px" }}>Upgrade Sets</h2>
-          <p style={{ color: "#bbb", maxWidth: "700px" }}>
+          <p style={{ color: "#ccc", maxWidth: "700px" }}>
             Die Komponenten können als abgestimmte Upgrade-Kits angeboten werden,
             um typische Schwachstellen gezielt zu verbessern.
           </p>
@@ -106,7 +106,7 @@ export default function Home() {
                 <div style={{ padding: "20px" }}>
                   <h3>{kit.title}</h3>
                   {kit.title === "Performance Kit" && <p style={{ color: "#ff6600", fontWeight: "bold" }}>Empfohlen</p>}
-                  <ul style={{ color: "#bbb", paddingLeft: "20px" }}>
+                  <ul style={{ color: "#ccc", paddingLeft: "20px" }}>
                     {kit.items.map((item) => <li key={item}>{item}</li>)}
                   </ul>
                 </div>
@@ -122,7 +122,7 @@ export default function Home() {
 
       <section id="kontakt" style={{ padding: "60px 30px", textAlign: "center" }}>
         <h2 style={{ fontSize: "34px" }}>Händleranfrage</h2>
-        <p style={{ color: "#bbb", maxWidth: "600px", margin: "0 auto" }}>
+        <p style={{ color: "#ccc", maxWidth: "600px", margin: "0 auto" }}>
           Interesse an einer Zusammenarbeit oder Vertriebspartnerschaft?
           Kontaktieren Sie uns direkt.
         </p>

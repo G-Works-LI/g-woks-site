@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220">
+<style>
+.text-main { font-family: 'Orbitron', Arial, sans-serif; font-weight: 700; letter-spacing: 2px; }
+.text-sub { font-family: 'Orbitron', Arial, sans-serif; font-weight: 600; letter-spacing: 10px; }
+</style>
+
+<!-- HEX / G SYMBOL (refined geometric) -->
+<g fill="none" stroke="#ff6a00" stroke-width="14" stroke-linejoin="round">
+  <polygon points="120,20 200,60 200,140 120,180 40,140 40,60"/>
+  <polyline points="150,75 115,75 90,95 90,125 115,145 150,145 150,115 120,115"/>
+</g>
+
+<!-- TEXT -->
+<text x="260" y="115" class="text-main" font-size="72" fill="#e5e7eb">G-WORKS</text>
+
+<!-- LINE LEFT -->
+<line x1="260" y1="150" x2="420" y2="150" stroke="#ff6a00" stroke-width="5"/>
+
+<!-- RC -->
+<text x="450" y="165" class="text-sub" font-size="40" fill="#ff6a00">RC</text>
+
+<!-- LINE RIGHT -->
+<line x1="520" y1="150" x2="720" y2="150" stroke="#ff6a00" stroke-width="5"/>
+
+<!-- SPEED MARK -->
+<line x1="730" y1="145" x2="770" y2="145" stroke="#ff6a00" stroke-width="5"/>
+<line x1="745" y1="155" x2="785" y2="155" stroke="#ff6a00" stroke-width="5"/>
+
+</svg>
