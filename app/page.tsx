@@ -120,7 +120,59 @@ export default function Home() {
         </div>
       </section>
 
-      <section id="kontakt" style={{ padding: "60px 30px", textAlign: "center" }}>
+      <section style={{ padding: "70px 30px", maxWidth: "1100px", margin: "0 auto" }}>
+        <h2 style={{ fontSize: "34px" }}>Montage & Bauanleitung</h2>
+
+        <p style={{ color: "#ccc", maxWidth: "700px" }}>
+          Für alle G-Works Upgrade-Teile werden aktuell bebilderte Montageanleitungen erstellt.
+          Ziel ist eine einfache, sichere und reproduzierbare Installation direkt am Modell.
+        </p>
+
+        <div style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))",
+          gap: "20px",
+          marginTop: "30px"
+        }}>
+          <div style={{ background: "#181818", padding: "20px", borderRadius: "14px", border: "1px solid #2a2a2a" }}>
+            <h3 style={{ color: "#ff6600" }}>Vorbereitung</h3>
+            <ul style={{ color: "#ccc", paddingLeft: "20px" }}>
+              <li>Bauteile auf Beschädigungen prüfen</li>
+              <li>Kontaktflächen reinigen</li>
+              <li>Passung vor Montage trocken testen</li>
+            </ul>
+          </div>
+
+          <div style={{ background: "#181818", padding: "20px", borderRadius: "14px", border: "1px solid #2a2a2a" }}>
+            <h3 style={{ color: "#ff6600" }}>Montage</h3>
+            <ul style={{ color: "#ccc", paddingLeft: "20px" }}>
+              <li>Bauteile spannungsfrei einsetzen</li>
+              <li>Keine Gewalt anwenden</li>
+              <li>Ggf. Kleber oder Schrauben nach Anleitung verwenden</li>
+            </ul>
+          </div>
+
+          <div style={{ background: "#181818", padding: "20px", borderRadius: "14px", border: "1px solid #2a2a2a" }}>
+            <h3 style={{ color: "#ff6600" }}>Kontrolle</h3>
+            <ul style={{ color: "#ccc", paddingLeft: "20px" }}>
+              <li>Sitz und Funktion prüfen</li>
+              <li>Bewegliche Teile testen</li>
+              <li>Vor jedem Flug Sichtkontrolle durchführen</li>
+            </ul>
+          </div>
+        </div>
+
+        <p style={{
+          marginTop: "30px",
+          color: "#ff6600",
+          fontWeight: "bold",
+          textAlign: "center"
+        }}>
+          Detaillierte Einbauanleitungen und Beispielbilder werden aktuell erstellt.
+        </p>
+      </section>
+
+      <section id="kontakt" style={{ padding: "60px 30px", textAlign: "center", background: "#111" }}>
         <h2 style={{ fontSize: "34px" }}>Händleranfrage</h2>
         <p style={{ color: "#ccc", maxWidth: "600px", margin: "0 auto" }}>
           Interesse an einer Zusammenarbeit oder Vertriebspartnerschaft?
