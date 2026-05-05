@@ -17,6 +17,16 @@ const benefits = [
 export default function Home() {
   return (
     <main style={{ fontFamily: "Arial", background: "#0b0b0b", color: "#eee", minHeight: "100vh" }}>
+{/* HINWEIS */}
+<div style={{
+  background: "#ff6600",
+  color: "#000",
+  textAlign: "center",
+  padding: "10px",
+  fontWeight: "bold"
+}}>
+  Diese Seite befindet sich aktuell im Aufbau – Inhalte und Produkte werden laufend erweitert.
+</div>
 
       {/* HEADER */}
       <header style={{
