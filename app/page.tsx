@@ -106,29 +106,36 @@ export default function Home() {
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "20px", marginTop: "30px" }}>
             {kits.map((kit) => (
   <div
-    key={kit.title}
-    onMouseEnter={() => setHovered(kit.title)}
-    onMouseLeave={() => setHovered(null)}
-    style={{
-      background: "#181818",
-      borderRadius: "14px",
-      overflow: "hidden",
-      border:
-        kit.title === "Performance Kit"
-          ? "2px solid #ff6600"
-          : "1px solid #2a2a2a",
-      transform:
-        hovered === kit.title
-          ? "translateY(-8px) scale(1.02)"
-          : "translateY(0)",
-      boxShadow:
-        hovered === kit.title
-          ? "0 20px 40px rgba(255,102,0,0.22)"
-          : "none",
-      transition: "all 0.25s ease",
-      cursor: "pointer",
-    }}
-  >
+  key={kit.title}
+  style={{
+    position: "relative",
+    background: "#181818",
+    borderRadius: "14px",
+    overflow: "hidden",
+    border: kit.title === "Performance Kit"
+      ? "2px solid #ff6600"
+      : "1px solid #2a2a2a",
+    transition: "all 0.25s ease",
+    boxShadow:
+      kit.title === "Performance Kit"
+        ? "0 0 25px rgba(255,102,0,0.18)"
+        : "none"
+  }}
+  onMouseOver={(e) => {
+    e.currentTarget.style.transform = "translateY(-6px)";
+    e.currentTarget.style.boxShadow =
+      kit.title === "Performance Kit"
+        ? "0 20px 50px rgba(255,102,0,0.35)"
+        : "0 20px 40px rgba(0,0,0,0.6)";
+  }}
+  onMouseOut={(e) => {
+    e.currentTarget.style.transform = "translateY(0)";
+    e.currentTarget.style.boxShadow =
+      kit.title === "Performance Kit"
+        ? "0 0 25px rgba(255,102,0,0.18)"
+        : "none";
+  }}
+>
     <img
       src={kit.image}
       alt={kit.title}
@@ -193,13 +200,13 @@ export default function Home() {
       transition: "all 0.2s ease"
     }}
     onMouseOver={(e) => {
-      e.currentTarget.style.transform = "scale(1.05)";
-      e.currentTarget.style.boxShadow = "0 10px 25px rgba(255,102,0,0.4)";
-    }}
-    onMouseOut={(e) => {
-      e.currentTarget.style.transform = "scale(1)";
-      e.currentTarget.style.boxShadow = "none";
-    }}
+  e.currentTarget.style.transform = "scale(1.08)";
+  e.currentTarget.style.boxShadow = "0 15px 40px rgba(255,102,0,0.6)";
+}}
+onMouseOut={(e) => {
+  e.currentTarget.style.transform = "scale(1)";
+  e.currentTarget.style.boxShadow = "0 10px 30px rgba(255,102,0,0.3)";
+}}
   >
     Händleranfrage starten
   </a>
