@@ -125,6 +125,17 @@ export default function Home() {
             }}
           />
 
+<p style={{
+  marginTop: "25px",
+  color: "#ff6600",
+  fontWeight: "bold",
+  textAlign: "center",
+  fontSize: "18px"
+}}>
+  Preise & Händlerkonditionen auf Anfrage
+</p>
+
+
           <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))", gap: "20px", marginTop: "30px" }}>
 
             <div style={{ background: "#181818", padding: "20px", borderRadius: "14px" }}>
