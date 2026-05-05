@@ -27,7 +27,7 @@ export const metadata = {
     siteName: "G-Works",
     images: [
       {
-        url: "/logo-preview.png",
+        url: "/logo-preview-v2.png",
         width: 1200,
         height: 630,
         alt: "G-Works RC Upgrade Parts",
