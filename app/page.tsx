@@ -377,7 +377,7 @@ export default function Home() {
 
       <section
   style={{
-    padding: isSmallMobile ? "42px 16px" : isMobile ? "50px 20px" : "70px 30px",
+    padding: isSmallMobile ? "60px 16px" : isMobile ? "70px 20px" : "90px 30px",
     background: "#0f0f0f",
     borderTop: "1px solid #1d1d1d",
   }}
@@ -420,6 +420,8 @@ export default function Home() {
             border: "1px solid #2a2a2a",
             borderRadius: "14px",
             padding: isMobile ? "18px" : "22px",
+            boxShadow: "0 10px 30px rgba(0,0,0,0.25)",
+            transition: "all 0.25s ease",
           }}
         >
           <h3
