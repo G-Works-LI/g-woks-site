@@ -18,7 +18,7 @@ const kits = [
   {
     title: "Basic Kit",
     image: "/images/basic-kit.jpg",
-    items: ["Canopy Pins", "Ruderhorn", "Front-Haubensicherung"],
+    items: ["Canopy Pins", "Winglets", "Canopysicherung vorne und hinten"],
   },
   {
     title: "Performance Kit",
