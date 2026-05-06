@@ -177,35 +177,43 @@ export default function Home() {
         </div>
       </section>
 
-      <section
+  <section
   style={{
-    padding: isMobile ? "50px 20px" : "70px 30px",
+    padding: isMobile ? "50px 20px" : "80px 30px",
     background: "#0b0b0b",
     borderTop: "1px solid #1d1d1d",
     borderBottom: "1px solid #1d1d1d",
   }}
 >
-  <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
-    <h2 style={{ fontSize: isMobile ? "30px" : "34px" }}>
-      Engineering & Development
-    </h2>
-
-    <p style={{ color: "#ccc", maxWidth: "760px", lineHeight: 1.6 }}>
-      G-Works Teile entstehen aus eigenen CAD-Entwürfen und werden für den realen
-      RC-Einsatz entwickelt, getestet und optimiert.
-    </p>
-
-    <img
-      src="/images/engineering-winglet-cad.png"
-      alt="G-Works Engineering CAD Design"
+  <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+    <div
       style={{
-        width: "100%",
-        marginTop: "28px",
-        borderRadius: "18px",
-        border: "1px solid rgba(255,102,0,0.25)",
-        boxShadow: "0 25px 70px rgba(0,0,0,0.65)",
+        position: "relative",
+        overflow: "hidden",
+        borderRadius: "24px",
+        border: "1px solid rgba(255,102,0,0.18)",
+        boxShadow: "0 30px 90px rgba(0,0,0,0.6)",
       }}
-    />
+    >
+      <img
+        src="/images/engineering-cad-hero.jpg"
+        alt="G-Works CAD Engineering"
+        style={{
+          width: "100%",
+          display: "block",
+        }}
+      />
+
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          background:
+            "linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.02))",
+          pointerEvents: "none",
+        }}
+      />
+    </div>
   </div>
 </section>
 
