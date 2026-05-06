@@ -208,15 +208,15 @@ export default function Home() {
             }}
           >
             <img
-              src="/images/engineering-cad-hero.jpg"
-              alt="G-Works CAD Engineering"
-              style={{
-                width: isMobile ? "760px" : "100%",
-                maxWidth: isMobile ? "none" : "100%",
-                display: "block",
-                transform: isSmallMobile ? "translateX(-250px)" : isMobile ? "translateX(-190px)" : "none",
-              }}
-            />
+  src="/images/engineering-cad-hero.jpg"
+  alt="G-Works CAD Engineering"
+  style={{
+    width: "100%",
+    maxWidth: "100%",
+    display: "block",
+    transform: "none",
+  }}
+/>
 
             <div
               style={{
