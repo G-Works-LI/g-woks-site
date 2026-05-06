@@ -7,7 +7,7 @@ const products = [
   { title: "Haubensicherung hinten", text: "Mechanische Sicherung mit Federmechanik für zuverlässigen Halt.", image: "/images/haubenbefestigung-hinten-v2.jpg" },
   { title: "Haubensicherung vorne", text: "Leichte Zusatzsicherung zum Aufkleben.", image: "/images/haubenbefestigung-vorne-v2.jpg" },
   { title: "Ruderhorn-Befestigung", text: "Verstärkte Befestigung für bessere Kraftverteilung.", image: "/images/ruderhornbefestigung-v2.jpg" },
-  { title: "Spinner mit Nase", text: "Ersatz- und Designteil mit markanter G-Works Optik.", image: "/images/spinner-mit-nase.jpg" },
+  { title: "Spinner mit Nase", text: "Ersatz- und Designteil mit markanter G-Works Optik.", image: "/images/spinner-mit-nase-v2.jpg" },
   { title: "Canopy Pins", text: "Sicherheitsstifte mit Sollbruchstelle.", image: "/images/Canopystifte.jpg" },
 ];
 
