@@ -472,7 +472,7 @@ export default function Home() {
       }}
     >
       <img
-        src="/images/windrad-engineering-v2.jpg"
+        src="/images/windrad-engineering-v3.jpg"
         alt="G-Works Engineering Projekte"
         style={{
           width: "100%",
