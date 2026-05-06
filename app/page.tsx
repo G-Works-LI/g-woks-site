@@ -110,6 +110,22 @@ export default function Home() {
             STL-Dateien zum Selbstdruck
           </h2>
 
+          <div
+  style={{
+    display: "inline-block",
+    background: "rgba(255,102,0,0.18)",
+    border: "1px solid rgba(255,102,0,0.35)",
+    color: "#ff6600",
+    padding: "6px 12px",
+    borderRadius: "999px",
+    fontSize: "12px",
+    fontWeight: "bold",
+    marginBottom: "14px",
+  }}
+>
+  DIGITAL STL FILES
+</div>
+
           <p style={{ color: "#ddd", lineHeight: 1.6, maxWidth: "850px" }}>
             Viele G-Works Designs sind auch als STL-Dateien erhältlich. Diese eignen sich
             für Kunden, die die Teile selbst drucken möchten.
