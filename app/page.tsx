@@ -116,14 +116,15 @@ export default function Home() {
           </p>
 
           <div
-            style={{
-              marginTop: "18px",
-              background: "rgba(0,0,0,0.35)",
-              border: "1px solid rgba(255,102,0,0.25)",
-              borderRadius: "14px",
-              padding: "18px",
-            }}
-          >
+  style={{
+    marginTop: "18px",
+    background: "rgba(0,0,0,0.35)",
+    border: "1px solid rgba(255,102,0,0.25)",
+    borderRadius: "14px",
+    padding: "18px",
+    maxWidth: "850px",
+  }}
+>
             <h3 style={{ color: "#ff6600", marginTop: 0 }}>
               Wichtiger Hinweis zu STL-Dateien
             </h3>
