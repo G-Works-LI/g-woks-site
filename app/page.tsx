@@ -453,6 +453,46 @@ export default function Home() {
   </div>
 </section>
 
+<section
+  style={{
+    padding: isSmallMobile ? "55px 16px" : isMobile ? "70px 20px" : "90px 30px",
+    background: "#0b0b0b",
+    borderTop: "1px solid #1a1a1a",
+    borderBottom: "1px solid #1a1a1a",
+  }}
+>
+  <div style={{ maxWidth: "1200px", margin: "0 auto" }}>
+    <div
+      style={{
+        position: "relative",
+        overflow: "hidden",
+        borderRadius: isMobile ? "18px" : "24px",
+        border: "1px solid rgba(255,102,0,0.18)",
+        boxShadow: "0 30px 90px rgba(0,0,0,0.6)",
+      }}
+    >
+      <img
+        src="/images/windrad-engineering.jpg"
+        alt="G-Works Engineering Projekte"
+        style={{
+          width: "100%",
+          display: "block",
+        }}
+      />
+
+      <div
+        style={{
+          position: "absolute",
+          inset: 0,
+          background:
+            "linear-gradient(to right, rgba(0,0,0,0.15), rgba(0,0,0,0.02))",
+          pointerEvents: "none",
+        }}
+      />
+    </div>
+  </div>
+</section>
+
       <section id="kontakt" style={{ padding: isSmallMobile ? "42px 16px" : isMobile ? "50px 20px" : "60px 30px", textAlign: "center", background: "#111" }}>
         <h2 style={{ fontSize: isSmallMobile ? "26px" : isMobile ? "30px" : "34px" }}>Händleranfrage</h2>
 
