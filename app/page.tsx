@@ -102,7 +102,7 @@ export default function Home() {
             background: "linear-gradient(135deg, rgba(255,102,0,0.14), rgba(24,24,24,1))",
             border: "1px solid rgba(255,102,0,0.35)",
             borderRadius: "16px",
-            padding: isMobile ? "22px" : "28px",
+            padding: isMobile ? "24px" : "34px",
             boxShadow: "0 20px 50px rgba(0,0,0,0.35)",
           }}
         >
