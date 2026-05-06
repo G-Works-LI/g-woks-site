@@ -177,6 +177,38 @@ export default function Home() {
         </div>
       </section>
 
+      <section
+  style={{
+    padding: isMobile ? "50px 20px" : "70px 30px",
+    background: "#0b0b0b",
+    borderTop: "1px solid #1d1d1d",
+    borderBottom: "1px solid #1d1d1d",
+  }}
+>
+  <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+    <h2 style={{ fontSize: isMobile ? "30px" : "34px" }}>
+      Engineering & Development
+    </h2>
+
+    <p style={{ color: "#ccc", maxWidth: "760px", lineHeight: 1.6 }}>
+      G-Works Teile entstehen aus eigenen CAD-Entwürfen und werden für den realen
+      RC-Einsatz entwickelt, getestet und optimiert.
+    </p>
+
+    <img
+      src="/images/engineering-winglet-cad.png"
+      alt="G-Works Engineering CAD Design"
+      style={{
+        width: "100%",
+        marginTop: "28px",
+        borderRadius: "18px",
+        border: "1px solid rgba(255,102,0,0.25)",
+        boxShadow: "0 25px 70px rgba(0,0,0,0.65)",
+      }}
+    />
+  </div>
+</section>
+
       <section style={{ padding: isMobile ? "50px 20px" : "70px 30px", background: "#111" }}>
         <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
           <h2 style={{ fontSize: isMobile ? "30px" : "34px" }}>Upgrade Sets</h2>
