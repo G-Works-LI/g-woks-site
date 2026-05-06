@@ -72,7 +72,7 @@ export default function Home() {
           </p>
 
           <img
-            src="/images/modell-asw-28-v2-volantex-v2.jpg"
+            src="/images/modell-asw-28-v2-volantex-v3.jpg"
             alt="Volantex ASW 28 V2"
             style={{ width: "100%", maxWidth: "700px", marginTop: "35px", borderRadius: "14px", border: "1px solid #333", boxShadow: "0 30px 80px rgba(0,0,0,0.7)" }}
           />
