@@ -179,7 +179,17 @@ export default function Home() {
         <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(auto-fit, minmax(280px, 1fr))", gap: isMobile ? "16px" : "20px", marginTop: "20px" }}>
           {products.map((p) => (
             <div key={p.title} style={{ background: "#181818", borderRadius: "14px", overflow: "hidden", border: "1px solid #2a2a2a" }}>
-              <img src={p.image} alt={p.title} style={{ width: "100%", height: isSmallMobile ? "210px" : isMobile ? "240px" : "200px", objectFit: "cover" }} />
+              <img
+  src={p.image}
+  alt={p.title}
+  style={{
+    width: "100%",
+    height: isSmallMobile ? "210px" : isMobile ? "240px" : "200px",
+    objectFit: "contain",
+    background: "#111",
+    padding: "10px",
+  }}
+/>
               <div style={{ padding: isMobile ? "16px" : "15px" }}>
                 <h3 style={{ marginTop: 0, marginBottom: "8px", fontSize: isMobile ? "17px" : "18px" }}>{p.title}</h3>
                 <p style={{ color: "#ccc", marginBottom: 0, lineHeight: 1.45, fontSize: isMobile ? "14px" : "15px" }}>{p.text}</p>
