@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 
 const products = [
-  { title: "Winglet Schnellwechsel-System", text: "Servicefreundlicher Austausch nach Transport oder Beschädigung.", image: "/images/winglet-mit-adapter.jpg" },
+  { title: "Winglet Schnellwechsel-System", text: "Servicefreundlicher Austausch nach Transport oder Beschädigung.", image: "/images/winglet-mit-adapter-v2.jpg" },
   { title: "Haubensicherung hinten", text: "Mechanische Sicherung mit Federmechanik für zuverlässigen Halt.", image: "/images/haubenbefestigung-hinten.jpg" },
   { title: "Haubensicherung vorne", text: "Leichte Zusatzsicherung zum Aufkleben.", image: "/images/haubenbefestigung-vorne.jpg" },
   { title: "Ruderhorn-Befestigung", text: "Verstärkte Befestigung für bessere Kraftverteilung.", image: "/images/Ruderhornbefestigung.jpg" },
@@ -72,7 +72,7 @@ export default function Home() {
           </p>
 
           <img
-            src="/images/modell-asw-28-v2-volantex.jpg"
+            src="/images/modell-asw-28-v2-volantex-v2.jpg"
             alt="Volantex ASW 28 V2"
             style={{ width: "100%", maxWidth: "700px", marginTop: "35px", borderRadius: "14px", border: "1px solid #333", boxShadow: "0 30px 80px rgba(0,0,0,0.7)" }}
           />
