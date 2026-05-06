@@ -375,6 +375,82 @@ export default function Home() {
         </p>
       </section>
 
+      <section
+  style={{
+    padding: isSmallMobile ? "42px 16px" : isMobile ? "50px 20px" : "70px 30px",
+    background: "#0f0f0f",
+    borderTop: "1px solid #1d1d1d",
+  }}
+>
+  <div style={{ maxWidth: "1100px", margin: "0 auto" }}>
+    <h2 style={{ fontSize: isSmallMobile ? "26px" : isMobile ? "30px" : "34px" }}>
+      CAD Design & Sonderlösungen
+    </h2>
+
+    <p
+      style={{
+        color: "#ccc",
+        maxWidth: "760px",
+        lineHeight: 1.6,
+        fontSize: isMobile ? "15px" : "16px",
+      }}
+    >
+      Neben unseren eigenen Upgrade-Teilen entwickeln wir auch individuelle
+      CAD-Lösungen für andere RC-Modelle und spezielle Anwendungen.
+    </p>
+
+    <div
+      style={{
+        display: "grid",
+        gridTemplateColumns: isMobile ? "1fr" : "repeat(auto-fit, minmax(240px, 1fr))",
+        gap: isMobile ? "16px" : "20px",
+        marginTop: "28px",
+      }}
+    >
+      {[
+        "Nicht mehr lieferbare Ersatzteile",
+        "Krallenkupplungen & Mechaniken",
+        "Modellspezifische Anpassungen",
+        "Kleinserien & Sonderanfertigungen",
+      ].map((item) => (
+        <div
+          key={item}
+          style={{
+            background: "#181818",
+            border: "1px solid #2a2a2a",
+            borderRadius: "14px",
+            padding: isMobile ? "18px" : "22px",
+          }}
+        >
+          <h3
+            style={{
+              color: "#ff6600",
+              margin: 0,
+              fontSize: isMobile ? "16px" : "18px",
+            }}
+          >
+            {item}
+          </h3>
+        </div>
+      ))}
+    </div>
+
+    <p
+      style={{
+        marginTop: "28px",
+        color: "#aaa",
+        lineHeight: 1.6,
+        maxWidth: "760px",
+        fontSize: isMobile ? "14px" : "15px",
+      }}
+    >
+      Ziel ist die Entwicklung funktionaler, langlebiger und praxisgerechter
+      Lösungen für den realen RC-Einsatz – von Ersatzteilen bis hin zu
+      kompletten Sonderkonstruktionen.
+    </p>
+  </div>
+</section>
+
       <section id="kontakt" style={{ padding: isSmallMobile ? "42px 16px" : isMobile ? "50px 20px" : "60px 30px", textAlign: "center", background: "#111" }}>
         <h2 style={{ fontSize: isSmallMobile ? "26px" : isMobile ? "30px" : "34px" }}>Händleranfrage</h2>
 
