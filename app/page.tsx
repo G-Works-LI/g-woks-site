@@ -19,7 +19,7 @@ const benefits = [
 ];
 
 const kits = [
-  { title: "Basic Kit", image: "/images/basic-kit-v2.jpg", items: ["Canopy Pins", "Ruderhorn", "Front-Haubensicherung"] },
+  { title: "Basic Kit", image: "/images/basic-kit-v2.jpg", items: ["Winglets", "Canopy Pins", "Canopysicherung vorne und hinten"] },
   { title: "Performance Kit", image: "/images/performance-kit-v2.jpg", items: ["Winglet System", "Haubensicherung hinten", "Canopy Pins"] },
   { title: "Full Kit", image: "/images/full-kit-v2.jpg", items: ["Alle Komponenten kombiniert", "Maximale Verbesserung"] },
 ];
