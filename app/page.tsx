@@ -94,6 +94,56 @@ export default function Home() {
         </div>
       </section>
 
+      <section style={{ padding: isMobile ? "45px 20px" : "60px 30px", background: "#0b0b0b" }}>
+        <div
+          style={{
+            maxWidth: "1100px",
+            margin: "0 auto",
+            background: "linear-gradient(135deg, rgba(255,102,0,0.14), rgba(24,24,24,1))",
+            border: "1px solid rgba(255,102,0,0.35)",
+            borderRadius: "16px",
+            padding: isMobile ? "22px" : "28px",
+            boxShadow: "0 20px 50px rgba(0,0,0,0.35)",
+          }}
+        >
+          <h2 style={{ fontSize: isMobile ? "26px" : "30px", color: "#ff6600", marginTop: 0 }}>
+            STL-Dateien zum Selbstdruck
+          </h2>
+
+          <p style={{ color: "#ddd", lineHeight: 1.6, maxWidth: "850px" }}>
+            Viele G-Works Designs sind auch als STL-Dateien erhältlich. Diese eignen sich
+            für Kunden, die die Teile selbst drucken möchten.
+          </p>
+
+          <div
+            style={{
+              marginTop: "18px",
+              background: "rgba(0,0,0,0.35)",
+              border: "1px solid rgba(255,102,0,0.25)",
+              borderRadius: "14px",
+              padding: "18px",
+            }}
+          >
+            <h3 style={{ color: "#ff6600", marginTop: 0 }}>
+              Wichtiger Hinweis zu STL-Dateien
+            </h3>
+
+            <p style={{ color: "#ccc", lineHeight: 1.6, marginBottom: "10px" }}>
+              Die STL-Dateien enthalten keine optimierten Druckprofile,
+              Slicer-Einstellungen oder unsere produktionsspezifischen
+              Verstärkungs-Setups.
+            </p>
+
+            <p style={{ color: "#aaa", lineHeight: 1.6, marginBottom: 0 }}>
+              Verstärkende Rippen und Stabilitätsoptimierungen sind Teil unseres
+              eigenen Druckprozesses. Die finale Stabilität hängt von Drucker,
+              Material, Druckausrichtung und Slicer-Einstellungen ab. Für maximale
+              Stabilität empfehlen wir unsere fertig gedruckten G-Works Teile.
+            </p>
+          </div>
+        </div>
+      </section>
+
       <section style={{ padding: isMobile ? "45px 20px" : "60px 30px", maxWidth: "1100px", margin: "0 auto" }}>
         <h2 style={{ fontSize: isMobile ? "30px" : "34px" }}>Produkte</h2>
 
