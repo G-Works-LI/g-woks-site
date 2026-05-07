@@ -280,16 +280,19 @@ export default function Home() {
                 )}
 
                 <img
-                  src={kit.image}
-                  alt={kit.title}
-                  style={{
-                    width: "100%",
-                    height: isSmallMobile ? "210px" : isMobile ? "240px" : "220px",
-                    objectFit: "cover",
-                    transform: hovered === kit.title && !isMobile ? "scale(1.05)" : "scale(1)",
-                    transition: "all 0.3s ease",
-                  }}
-                />
+  src={kit.image}
+  alt={kit.title}
+  style={{
+    width: "100%",
+    height: isSmallMobile ? "210px" : isMobile ? "240px" : "220px",
+    objectFit: isMobile ? "contain" : "cover",
+    background: "#111",
+    padding: isMobile ? "10px" : "0",
+    boxSizing: "border-box",
+    transform: hovered === kit.title && !isMobile ? "scale(1.05)" : "scale(1)",
+    transition: "all 0.3s ease",
+  }}
+/>
 
                 <div style={{ padding: isMobile ? "18px" : "20px" }}>
                   <h3 style={{ marginTop: 0 }}>{kit.title}</h3>
