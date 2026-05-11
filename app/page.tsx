@@ -6,7 +6,7 @@ const products = [
   { title: "Winglet Schnellwechsel-System", text: "Servicefreundlicher Austausch nach Transport oder Beschädigung.", image: "/images/winglet-mit-adapter-v5.jpg" },
   { title: "Haubensicherung hinten", text: "Mechanische Sicherung mit Federmechanik für zuverlässigen Halt.", image: "/images/haubenbefestigung-hinten-v2.jpg" },
   { title: "Haubensicherung vorne", text: "Leichte Zusatzsicherung zum Aufkleben.", image: "/images/haubenbefestigung-vorne-v3.jpg" },
-  { title: "Servo-Cover", text: "Verstärkte Befestigung für bessere Kraftverteilung.", image: "/images/servo-cover.jpg" },
+  { title: "Servo-Cover", text: "SERVO-COVER SET - ASW 28 V2.", image: "/images/servo-cover.jpg" },
   { title: "Spinner mit Nase", text: "Ersatz- und Designteil mit markanter G-Works Optik.", image: "/images/spinner-mit-nase-v3.jpg" },
   { title: "Canopy Pins", text: "Sicherheitsstifte mit Sollbruchstelle.", image: "/images/canopystifte-v2.jpg" },
 ];
