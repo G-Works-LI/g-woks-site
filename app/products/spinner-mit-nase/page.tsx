@@ -21,7 +21,7 @@ export default function SpinnerMitNasePage() {
       >
         <div>
           <img
-            src="/images/spinner-mit-nase.jpg"
+            src="/images/spinner-mit-nase-v4.jpg"
             alt="Spinner mit Nase"
             style={{
               width: "100%",
