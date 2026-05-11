@@ -12,17 +12,17 @@ const products = [
   },
 
   {
-    title: "Haubensicherung hinten",
+    title: "Haubensicherung hinten und vorne",
     text: "Mechanische Sicherung mit Federmechanik für zuverlässigen Halt.",
     image: "/images/haubenbefestigung-hinten-und-vorne-v2.jpg",
-    link: "/products/haubensicherung-hinten",
+    link: "/products/haubensicherung-hinten-und-vorne",
   },
 
   {
-    title: "Haubensicherung vorne",
+    title: "Haubensicherung hinten und vorne",
     text: "Leichte Zusatzsicherung zum Aufkleben.",
-    image: "/images/haubenbefestigung-vorne-v3.jpg",
-    link: "/products/haubensicherung-vorne",
+    image: "/images/haubenbefestigung-hinten-und-vorne-v2.jpg",
+    link: "/products/haubensicherung-hinten-und-vorne",
   },
 
   {
