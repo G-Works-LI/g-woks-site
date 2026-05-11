@@ -5,7 +5,7 @@ export default function ServoCoverPage() {
         minHeight: "100vh",
         background: "#0b0b0b",
         color: "#fff",
-        padding: "80px 20px",
+        padding: "50px 18px",
         fontFamily: "Arial",
       }}
     >
@@ -14,32 +14,33 @@ export default function ServoCoverPage() {
           maxWidth: "1200px",
           margin: "0 auto",
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
-          gap: "40px",
+          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+          gap: "34px",
           alignItems: "center",
         }}
       >
-        {/* Bild */}
         <div>
           <img
             src="/images/servo-cover.jpg"
             alt="Servo Cover"
             style={{
               width: "100%",
-              borderRadius: "20px",
+              borderRadius: "18px",
               border: "1px solid rgba(255,102,0,0.2)",
               background: "#111",
+              padding: "10px",
+              boxSizing: "border-box",
             }}
           />
         </div>
 
-        {/* Text */}
         <div>
           <p
             style={{
               color: "#ff6600",
               fontWeight: "bold",
-              letterSpacing: "3px",
+              letterSpacing: "2px",
+              fontSize: "13px",
               marginBottom: "10px",
             }}
           >
@@ -48,7 +49,8 @@ export default function ServoCoverPage() {
 
           <h1
             style={{
-              fontSize: "48px",
+              fontSize: "clamp(34px, 8vw, 48px)",
+              lineHeight: 1.05,
               marginTop: 0,
               marginBottom: "20px",
             }}
@@ -59,8 +61,8 @@ export default function ServoCoverPage() {
           <p
             style={{
               color: "#ccc",
-              lineHeight: 1.7,
-              fontSize: "18px",
+              lineHeight: 1.65,
+              fontSize: "clamp(15px, 4vw, 18px)",
             }}
           >
             Aerodynamische Servo-Abdeckungen für die ASW 28 V2.
@@ -70,11 +72,11 @@ export default function ServoCoverPage() {
 
           <div
             style={{
-              marginTop: "35px",
+              marginTop: "28px",
               background: "#181818",
               border: "1px solid #2a2a2a",
               borderRadius: "16px",
-              padding: "22px",
+              padding: "20px",
             }}
           >
             <h3 style={{ color: "#ff6600", marginTop: 0 }}>
@@ -86,6 +88,7 @@ export default function ServoCoverPage() {
                 color: "#ccc",
                 lineHeight: 1.8,
                 paddingLeft: "20px",
+                marginBottom: 0,
               }}
             >
               <li>Präzise Passform für die ASW 28 V2</li>
@@ -95,6 +98,25 @@ export default function ServoCoverPage() {
               <li>3D-gedruckt mit hochwertigem Filament</li>
             </ul>
           </div>
+
+          <a
+            href="mailto:gworks.rc@gmail.com"
+            style={{
+              display: "block",
+              marginTop: "26px",
+              width: "100%",
+              boxSizing: "border-box",
+              textAlign: "center",
+              background: "#ff6600",
+              color: "#000",
+              padding: "16px 22px",
+              borderRadius: "12px",
+              fontWeight: "bold",
+              textDecoration: "none",
+            }}
+          >
+            Anfrage senden
+          </a>
         </div>
       </div>
     </main>
