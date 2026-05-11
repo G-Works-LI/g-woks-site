@@ -35,7 +35,7 @@ const products = [
   {
     title: "Spinner mit Nase",
     text: "Ersatz- und Designteil mit markanter G-Works Optik.",
-    image: "/images/spinner-mit-nase-v3.jpg",
+    image: "/images/spinner-mit-nase-v4.jpg",
     link: "/products/spinner",
   },
 
