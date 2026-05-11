@@ -1,39 +1,100 @@
 export default function ServoCoverPage() {
   return (
-    <main className="min-h-screen bg-black text-white px-6 py-20">
-
-      <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-12 items-center">
-
+    <main
+      style={{
+        minHeight: "100vh",
+        background: "#0b0b0b",
+        color: "#fff",
+        padding: "80px 20px",
+        fontFamily: "Arial",
+      }}
+    >
+      <div
+        style={{
+          maxWidth: "1200px",
+          margin: "0 auto",
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(320px, 1fr))",
+          gap: "40px",
+          alignItems: "center",
+        }}
+      >
+        {/* Bild */}
         <div>
           <img
-            src="/servo-cover.jpg"
+            src="/images/servo-cover.jpg"
             alt="Servo Cover"
-            className="rounded-2xl border border-orange-500/20"
+            style={{
+              width: "100%",
+              borderRadius: "20px",
+              border: "1px solid rgba(255,102,0,0.2)",
+              background: "#111",
+            }}
           />
         </div>
 
+        {/* Text */}
         <div>
-          <p className="text-orange-500 uppercase tracking-[0.3em] mb-4">
-            G-Works Engineering
+          <p
+            style={{
+              color: "#ff6600",
+              fontWeight: "bold",
+              letterSpacing: "3px",
+              marginBottom: "10px",
+            }}
+          >
+            G-WORKS ENGINEERING
           </p>
 
-          <h1 className="text-5xl font-bold mb-6">
+          <h1
+            style={{
+              fontSize: "48px",
+              marginTop: 0,
+              marginBottom: "20px",
+            }}
+          >
             Servo-Cover Set
           </h1>
 
-          <p className="text-zinc-300 text-lg leading-relaxed mb-8">
+          <p
+            style={{
+              color: "#ccc",
+              lineHeight: 1.7,
+              fontSize: "18px",
+            }}
+          >
             Aerodynamische Servo-Abdeckungen für die ASW 28 V2.
-            Entwickelt für besseren Schutz, saubere Optik
-            und optimierte Aerodynamik.
+            Entwickelt für bessere Aerodynamik, saubere Integration
+            und zusätzlichen Schutz der Servobereiche.
           </p>
 
-          <div className="text-4xl font-bold text-orange-500 mb-8">
-            CHF 14.90
-          </div>
+          <div
+            style={{
+              marginTop: "35px",
+              background: "#181818",
+              border: "1px solid #2a2a2a",
+              borderRadius: "16px",
+              padding: "22px",
+            }}
+          >
+            <h3 style={{ color: "#ff6600", marginTop: 0 }}>
+              Eigenschaften
+            </h3>
 
-          <button className="bg-orange-500 hover:bg-orange-600 transition px-8 py-4 rounded-xl font-semibold">
-            Kontakt aufnehmen
-          </button>
+            <ul
+              style={{
+                color: "#ccc",
+                lineHeight: 1.8,
+                paddingLeft: "20px",
+              }}
+            >
+              <li>Präzise Passform für die ASW 28 V2</li>
+              <li>Verbesserte Aerodynamik</li>
+              <li>Leichtes und stabiles Design</li>
+              <li>Professionelle Optik</li>
+              <li>3D-gedruckt mit hochwertigem Filament</li>
+            </ul>
+          </div>
         </div>
       </div>
     </main>
