@@ -1,14 +1,49 @@
 "use client";
-
+import Link from "next/link";
 import { useEffect, useState } from "react";
 
 const products = [
-  { title: "Winglet Schnellwechsel-System", text: "Servicefreundlicher Austausch nach Transport oder Beschädigung.", image: "/images/winglet-mit-adapter-v5.jpg" },
-  { title: "Haubensicherung hinten", text: "Mechanische Sicherung mit Federmechanik für zuverlässigen Halt.", image: "/images/haubenbefestigung-hinten-v2.jpg" },
-  { title: "Haubensicherung vorne", text: "Leichte Zusatzsicherung zum Aufkleben.", image: "/images/haubenbefestigung-vorne-v3.jpg" },
-  { title: "Servo-Cover", text: "SERVO-COVER SET - ASW 28 V2.", image: "/images/servo-cover.jpg" },
-  { title: "Spinner mit Nase", text: "Ersatz- und Designteil mit markanter G-Works Optik.", image: "/images/spinner-mit-nase-v3.jpg" },
-  { title: "Canopy Pins", text: "Sicherheitsstifte mit Sollbruchstelle.", image: "/images/canopystifte-v2.jpg" },
+  {
+    title: "Winglet Schnellwechsel-System",
+    text: "Servicefreundlicher Austausch nach Transport oder Beschädigung.",
+    image: "/images/winglet-mit-adapter-v5.jpg",
+    link: "/products/winglet-system",
+  },
+
+  {
+    title: "Haubensicherung hinten",
+    text: "Mechanische Sicherung mit Federmechanik für zuverlässigen Halt.",
+    image: "/images/haubenbefestigung-hinten-v2.jpg",
+    link: "/products/haubensicherung-hinten",
+  },
+
+  {
+    title: "Haubensicherung vorne",
+    text: "Leichte Zusatzsicherung zum Aufkleben.",
+    image: "/images/haubenbefestigung-vorne-v3.jpg",
+    link: "/products/haubensicherung-vorne",
+  },
+
+  {
+    title: "Servo-Cover",
+    text: "SERVO-COVER SET - ASW 28 V2.",
+    image: "/images/servo-cover.jpg",
+    link: "/products/servo-cover",
+  },
+
+  {
+    title: "Spinner mit Nase",
+    text: "Ersatz- und Designteil mit markanter G-Works Optik.",
+    image: "/images/spinner-mit-nase-v3.jpg",
+    link: "/products/spinner",
+  },
+
+  {
+    title: "Canopy Pins",
+    text: "Sicherheitsstifte mit Sollbruchstelle.",
+    image: "/images/canopystifte-v2.jpg",
+    link: "/products/canopy-pins",
+  },
 ];
 
 const benefits = [
@@ -174,30 +209,60 @@ export default function Home() {
       </section>
 
       <section style={{ padding: isSmallMobile ? "38px 16px" : isMobile ? "45px 20px" : "60px 30px", maxWidth: "1100px", margin: "0 auto" }}>
-        <h2 style={{ fontSize: isSmallMobile ? "26px" : isMobile ? "30px" : "34px" }}>Produkte</h2>
+  <h2 style={{ fontSize: isSmallMobile ? "26px" : isMobile ? "30px" : "34px" }}>Produkte</h2>
 
-        <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(auto-fit, minmax(280px, 1fr))", gap: isMobile ? "16px" : "20px", marginTop: "20px" }}>
-          {products.map((p) => (
-            <div key={p.title} style={{ background: "#181818", borderRadius: "14px", overflow: "hidden", border: "1px solid #2a2a2a" }}>
-              <img
-  src={p.image}
-  alt={p.title}
-  style={{
-    width: "100%",
-    height: isSmallMobile ? "210px" : isMobile ? "240px" : "200px",
-    objectFit: "contain",
-    background: "#111",
-    padding: "10px",
-  }}
-/>
-              <div style={{ padding: isMobile ? "16px" : "15px" }}>
-                <h3 style={{ marginTop: 0, marginBottom: "8px", fontSize: isMobile ? "17px" : "18px" }}>{p.title}</h3>
-                <p style={{ color: "#ccc", marginBottom: 0, lineHeight: 1.45, fontSize: isMobile ? "14px" : "15px" }}>{p.text}</p>
-              </div>
-            </div>
-          ))}
+  <div style={{ display: "grid", gridTemplateColumns: isMobile ? "1fr" : "repeat(auto-fit, minmax(280px, 1fr))", gap: isMobile ? "16px" : "20px", marginTop: "20px" }}>
+    {products.map((p) => (
+      <Link
+        href={p.link}
+        key={p.title}
+        style={{
+          textDecoration: "none",
+          color: "inherit",
+          display: "block",
+        }}
+      >
+        <div
+          style={{
+            background: "#181818",
+            borderRadius: "14px",
+            overflow: "hidden",
+            border: "1px solid #2a2a2a",
+            cursor: "pointer",
+            transition: "all 0.25s ease",
+          }}
+        >
+          <img
+            src={p.image}
+            alt={p.title}
+            style={{
+              width: "100%",
+              height: isSmallMobile ? "210px" : isMobile ? "240px" : "200px",
+              objectFit: "contain",
+              background: "#111",
+              padding: "10px",
+              boxSizing: "border-box",
+            }}
+          />
+
+          <div style={{ padding: isMobile ? "16px" : "15px" }}>
+            <h3 style={{ marginTop: 0, marginBottom: "8px", fontSize: isMobile ? "17px" : "18px" }}>
+              {p.title}
+            </h3>
+
+            <p style={{ color: "#ccc", marginBottom: 0, lineHeight: 1.45, fontSize: isMobile ? "14px" : "15px" }}>
+              {p.text}
+            </p>
+
+            <p style={{ color: "#ff6600", marginTop: "14px", marginBottom: 0, fontWeight: "bold", fontSize: "14px" }}>
+              Produkt ansehen →
+            </p>
+          </div>
         </div>
-      </section>
+      </Link>
+    ))}
+  </div>
+</section>
 
       <section
         style={{
