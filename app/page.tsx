@@ -14,7 +14,7 @@ const products = [
   {
     title: "Haubensicherung hinten",
     text: "Mechanische Sicherung mit Federmechanik für zuverlässigen Halt.",
-    image: "/images/haubenbefestigung-hinten-v2.jpg",
+    image: "/images/haubenbefestigung-hinten-und-vorne-v2.jpg",
     link: "/products/haubensicherung-hinten",
   },
 
