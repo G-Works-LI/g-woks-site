@@ -50,7 +50,7 @@ export default function ServoCoverPage() {
       >
         
         <img
-  src="/images/servo-cover-v4.jpg"
+  src="/images/servo-cover-inst.jpg"
   alt="Servo Cover"
   style={{
     width: "100%",
@@ -64,7 +64,7 @@ export default function ServoCoverPage() {
   }}
 />
         <div>
-          
+
         </div>
           <p
             style={{
