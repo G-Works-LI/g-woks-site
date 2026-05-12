@@ -22,7 +22,7 @@ const products = [
     title: "Haubensicherung hinten und vorne",
     text: "Leichte Zusatzsicherung zum Aufkleben.",
     image: "/images/haubenbefestigung-hinten-und-vorne-v2.jpg",
-    link: "/products/haubensicherung-hinten-und-vorne",
+    link: "/products/haubenbefestigung",
   },
 
   {
