@@ -14,7 +14,7 @@ const products = [
   {
     title: "Haubensicherung hinten und vorne",
     text: "Mechanische Sicherung mit Federmechanik für zuverlässigen Halt.",
-    image: "/images/haubenbefestigung-hinten-und-vorne-v2.jpg",
+    image: "/images/haubenbefestigung-hinten-und-vorne-v3.jpg",
     link: "/products/haubensicherung-hinten-und-vorne",
   },
 
@@ -28,7 +28,7 @@ const products = [
   {
     title: "Servo-Cover",
     text: "SERVO-COVER SET - ASW 28 V2.",
-    image: "/images/servo-cover.v2.jpg",
+    image: "/images/servo-cover-v3.jpg",
     link: "/products/servo-cover",
   },
 
