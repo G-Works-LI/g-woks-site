@@ -8,7 +8,7 @@ const products = [
     title: "Winglet Schnellwechsel-System",
     text: "Servicefreundlicher Austausch nach Transport oder Beschädigung.",
     image: "/images/winglet-mit-adapter-v6.jpg",
-    link: "/products/winglet-system",
+    link: "/products/winglet",
   },
 
   {
