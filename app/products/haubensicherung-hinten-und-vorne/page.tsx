@@ -21,7 +21,7 @@ export default function ServoCoverPage() {
       >
         <div>
           <img
-            src="/images/haubenbefestigung-federmechanismus-v3.jpg.jpg"
+            src="/images/haubenbefestigung-hinten-und-vorne-v3.jpg"
             alt="Hauben Befestigung"
             style={{
               width: "100%",
