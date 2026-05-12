@@ -22,7 +22,7 @@ export default function ServoCoverPage() {
         <div>
           <img
             src="/images/haubenbefestigung-federmechanismus-v3.jpg.jpg"
-            alt="Canopy Pins"
+            alt="Hauben Befestigung"
             style={{
               width: "100%",
               borderRadius: "18px",
