@@ -21,8 +21,8 @@ export default function ServoCoverPage() {
       >
         <div>
           <img
-            src="/images/servo-cover-v4.jpg"
-            alt="Servo Cover"
+            src="/images/canopystifte-v3.jpg"
+            alt="Canopy Pins"
             style={{
               width: "100%",
               borderRadius: "18px",
@@ -55,7 +55,7 @@ export default function ServoCoverPage() {
               marginBottom: "20px",
             }}
           >
-            Servo-Cover Set
+            Canopy Pins
           </h1>
 
           <p

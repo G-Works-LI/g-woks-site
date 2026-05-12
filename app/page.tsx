@@ -42,7 +42,7 @@ const products = [
   {
     title: "Canopy Pins",
     text: "Sicherheitsstifte mit Sollbruchstelle.",
-    image: "/images/canopystifte-v2.jpg",
+    image: "/images/canopystifte-v3.jpg",
     link: "/products/canopy-pins",
   },
 ];
