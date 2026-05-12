@@ -28,7 +28,7 @@ const products = [
   {
     title: "Servo-Cover",
     text: "SERVO-COVER SET - ASW 28 V2.",
-    image: "/images/servo-cover.jpg",
+    image: "/images/servo-cover.v2.jpg",
     link: "/products/servo-cover",
   },
 
