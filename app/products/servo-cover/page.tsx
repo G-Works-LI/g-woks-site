@@ -33,6 +33,16 @@ export default function ServoCoverPage() {
             }}
           />
         </div>
+        <img
+  src="/images/servo-cover-inst.jpg"
+  alt="Servo Cover Installation"
+  style={{
+    width: "100%",
+    borderRadius: "18px",
+    marginTop: "24px",
+    border: "1px solid #2a2a2a",
+  }}
+/>
 
         <div>
           <p
