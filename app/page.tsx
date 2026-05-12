@@ -81,6 +81,63 @@ export default function Home() {
       <div style={{ background: "#ff6600", color: "#000", textAlign: "center", padding: isSmallMobile ? "9px 14px" : "10px", fontWeight: "bold", fontSize: isSmallMobile ? "12px" : isMobile ? "13px" : "15px", lineHeight: 1.35 }}>
         Diese Seite befindet sich aktuell im Aufbau – Inhalte, Produktbilder und Sets werden laufend erweitert.
       </div>
+      <div
+  style={{
+    maxWidth: "1400px",
+    margin: "0 auto 50px auto",
+    borderRadius: "24px",
+    overflow: "hidden",
+    border: "1px solid rgba(255,102,0,0.15)",
+    position: "relative",
+  }}
+>
+  <img
+    src="/images/modell-asw-28-v2-volantex-v5.jpg"
+    alt="Servo Cover Hero"
+    style={{
+      width: "100%",
+      maxHeight: "520px",
+      objectFit: "cover",
+      display: "block",
+    }}
+  />
+
+  <div
+    style={{
+      position: "absolute",
+      inset: 0,
+      background:
+        "linear-gradient(to top, rgba(0,0,0,0.85), rgba(0,0,0,0.15))",
+      display: "flex",
+      alignItems: "flex-end",
+      padding: "40px",
+      boxSizing: "border-box",
+    }}
+  >
+    <div>
+      <p
+        style={{
+          color: "#ff6600",
+          fontWeight: "bold",
+          letterSpacing: "2px",
+          marginBottom: "10px",
+        }}
+      >
+        G-WORKS RC
+      </p>
+
+      <h1
+        style={{
+          fontSize: "clamp(34px, 7vw, 62px)",
+          margin: 0,
+          lineHeight: 1,
+        }}
+      >
+        Servo-Cover Set
+      </h1>
+    </div>
+  </div>
+</div>
 
       <header style={{ display: "flex", justifyContent: "space-between", alignItems: "center", gap: "14px", padding: isSmallMobile ? "14px 16px" : isMobile ? "16px 20px" : "20px 30px", borderBottom: "1px solid #222", background: "#0b0b0b" }}>
         <img src="/logo.svg" alt="G-Works Logo" style={{ height: isSmallMobile ? "30px" : isMobile ? "34px" : "46px" }} />
