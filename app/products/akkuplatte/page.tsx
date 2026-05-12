@@ -14,7 +14,10 @@ export default function ServoCoverPage() {
           maxWidth: "1200px",
           margin: "0 auto",
           display: "grid",
-          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+          gridTemplateColumns:
+  typeof window !== "undefined" && window.innerWidth < 768
+    ? "1fr"
+    : "repeat(auto-fit, minmax(280px, 1fr))",
           gap: "34px",
           alignItems: "center",
         }}
