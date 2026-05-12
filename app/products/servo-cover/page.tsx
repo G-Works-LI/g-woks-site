@@ -36,9 +36,8 @@ export default function ServoCoverPage() {
     boxSizing: "border-box",
   }}
 />
-        <div>
 
-          <div
+<div
         style={{
           maxWidth: "1200px",
           margin: "0 auto",
@@ -64,8 +63,6 @@ export default function ServoCoverPage() {
   }}
 />
         <div>
-
-        </div>
           <p
             style={{
               color: "#ff6600",
