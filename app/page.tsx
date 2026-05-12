@@ -93,7 +93,7 @@ export default function Home() {
 >
   <img
     src="/images/modell-asw-28-v2-volantex-v5.jpg"
-    alt="Servo Cover Hero"
+    alt=" "
     style={{
       width: "100%",
       maxHeight: "520px",
