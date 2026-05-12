@@ -1,72 +1,123 @@
-export default function HaubenbefestigungPage() {
+export default function ServoCoverPage() {
   return (
     <main
       style={{
         minHeight: "100vh",
         background: "#0b0b0b",
-        color: "white",
-        padding: "40px 20px",
-        maxWidth: "1100px",
-        margin: "0 auto",
+        color: "#fff",
+        padding: "50px 18px",
+        fontFamily: "Arial",
       }}
     >
-      <h1
-        style={{
-          fontSize: "42px",
-          marginBottom: "20px",
-          color: "#ff6a00",
-        }}
-      >
-        Haubenbefestigung vorne & hinten
-      </h1>
-
-      <img
-        src="/images/haubenbefestigung-federmechanismus-v3.jpg"
-        alt="Haubenbefestigung"
-        style={{
-          width: "100%",
-          borderRadius: "18px",
-          marginBottom: "30px",
-          border: "1px solid #2a2a2a",
-        }}
-      />
-
       <div
         style={{
-          padding: "24px",
-          background: "#181818",
-          borderRadius: "16px",
-          border: "1px solid #2a2a2a",
+          maxWidth: "1200px",
+          margin: "0 auto",
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+          gap: "34px",
+          alignItems: "center",
         }}
       >
-        <h2 style={{ color: "#ff6a00", marginTop: 0 }}>
-          Haubenbefestigung mit Federmechanismus
-        </h2>
+        <div>
+          <img
+            src="/images/haubenbefestigung-federmechanismus-v3.jpg.jpg"
+            alt="Canopy Pins"
+            style={{
+              width: "100%",
+              borderRadius: "18px",
+              border: "1px solid rgba(255,102,0,0.2)",
+              background: "#111",
+              padding: "10px",
+              boxSizing: "border-box",
+            }}
+          />
+        </div>
 
-        <p style={{ lineHeight: 1.7, color: "#ddd" }}>
+        <div>
+          <p
+            style={{
+              color: "#ff6600",
+              fontWeight: "bold",
+              letterSpacing: "2px",
+              fontSize: "13px",
+              marginBottom: "10px",
+            }}
+          >
+            G-WORKS ENGINEERING
+          </p>
+
+          <h1
+            style={{
+              fontSize: "clamp(34px, 8vw, 48px)",
+              lineHeight: 1.05,
+              marginTop: 0,
+              marginBottom: "20px",
+            }}
+          >
+            Canopy Pins
+          </h1>
+
+          <p
+            style={{
+              color: "#ccc",
+              lineHeight: 1.65,
+              fontSize: "clamp(15px, 4vw, 18px)",
+            }}
+          >
           Die G-Works Haubenbefestigung sorgt für sicheren Halt deiner
           Kabinenhaube im Flug und ermöglicht gleichzeitig eine schnelle
           und werkzeuglose Bedienung.
-        </p>
+          </p>
 
-        <p style={{ lineHeight: 1.7, color: "#bbb" }}>
-          Durch den integrierten Federmechanismus wird die Haube zuverlässig
-          fixiert und bleibt dennoch servicefreundlich demontierbar.
-        </p>
+          <div
+            style={{
+              marginTop: "28px",
+              background: "#181818",
+              border: "1px solid #2a2a2a",
+              borderRadius: "16px",
+              padding: "20px",
+            }}
+          >
+            <h3 style={{ color: "#ff6600", marginTop: 0 }}>
+              Eigenschaften
+            </h3>
 
-        <ul
-          style={{
-            marginTop: "24px",
-            lineHeight: 2,
-            color: "#ccc",
-          }}
-        >
-          <li>Federmechanismus für sicheren Halt</li>
-          <li>Werkzeuglose Bedienung</li>
-          <li>Leicht & robust</li>
-          <li>3D-gedruckt mit hochwertigem Filament</li>
-          <li>Definierte Sollbruchstelle zum Schutz der Haube</li>
-        </ul>
+            <ul
+              style={{
+                color: "#ccc",
+                lineHeight: 1.8,
+                paddingLeft: "20px",
+                marginBottom: 0,
+              }}
+            >
+              <li>Präzise Passform für die ASW 28 V2</li>
+              <li>Verbesserte Aerodynamik</li>
+              <li>Leichtes und stabiles Design</li>
+              <li>Professionelle Optik</li>
+              <li>3D-gedruckt mit hochwertigem Filament</li>
+            </ul>
+          </div>
+
+          <a
+            href="mailto:gworks.rc@gmail.com"
+            style={{
+              display: "block",
+              marginTop: "26px",
+              width: "100%",
+              boxSizing: "border-box",
+              textAlign: "center",
+              background: "#ff6600",
+              color: "#000",
+              padding: "16px 22px",
+              borderRadius: "12px",
+              fontWeight: "bold",
+              textDecoration: "none",
+            }}
+          >
+            Anfrage senden
+          </a>
+        </div>
       </div>
     </main>
   );
