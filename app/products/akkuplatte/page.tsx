@@ -66,7 +66,7 @@ export default function ServoCoverPage() {
             }}
           >
             Akkuplatte für die ASW 28 V2.
-            Entwickelt für anbringen eines zweiten Akkus hinter das Fahrwerk. Fahrwerk muss ausgebaut werden. Schlitze für Akkustripp vorgesehen.
+            Entwickelt zum anbringen eines zweiten Akkus hinter das Fahrwerk. Fahrwerk muss ausgebaut werden. Schlitze für Akkustripps vorgesehen.
           </p>
 
           <div
