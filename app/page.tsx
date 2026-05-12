@@ -19,10 +19,10 @@ const products = [
   },
 
   {
-    title: "Haubensicherung hinten und vorne",
-    text: "Leichte Zusatzsicherung zum Aufkleben.",
-    image: "/images/akuplatte.jpg",
-    link: "/products/haubenbefestigung",
+    title: "Akkuplatte mit Klettverschlussschlitz",
+    text: "Leichte Zusatzsicherung zum aufkleben möglich.",
+    image: "/images/akkuplatte.jpg",
+    link: "/products/akkuplatte",
   },
 
   {
