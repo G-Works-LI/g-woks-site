@@ -21,7 +21,7 @@ const products = [
   {
     title: "Akkuplatte mit Klettverschlussschlitz",
     text: "Leichte Zusatzsicherung zum aufkleben möglich.",
-    image: "/images/akkuplatte-v2.jpg",
+    image: "/images/akkuplatte-v3.jpg",
     link: "/products/akkuplatte",
   },
 
