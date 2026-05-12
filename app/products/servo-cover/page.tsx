@@ -21,7 +21,7 @@ export default function ServoCoverPage() {
       >
         <div>
           <img
-            src="/images/servo-cover.jpg"
+            src="/images/servo-cover-v3.jpg"
             alt="Servo Cover"
             style={{
               width: "100%",
