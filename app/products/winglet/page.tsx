@@ -21,7 +21,7 @@ export default function ServoCoverPage() {
       >
         <div>
           <img
-            src="/images/spinner-mit-nase-und-prop.jpg"
+            src="/images/winglet-mit-adapter-v5.jpg"
             alt="Winglets"
             style={{
               width: "100%",
