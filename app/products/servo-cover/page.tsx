@@ -37,6 +37,35 @@ export default function ServoCoverPage() {
   }}
 />
         <div>
+
+          <div
+        style={{
+          maxWidth: "1200px",
+          margin: "0 auto",
+          display: "grid",
+          gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
+          gap: "34px",
+          alignItems: "center",
+        }}
+      >
+        
+        <img
+  src="/images/servo-cover-v4.jpg"
+  alt="Servo Cover"
+  style={{
+    width: "100%",
+    maxHeight: isMobile ? "320px" : "500px",
+    objectFit: "contain",
+    borderRadius: "18px",
+    border: "1px solid rgba(255,102,0,0.2)",
+    background: "#111",
+    padding: "10px",
+    boxSizing: "border-box",
+  }}
+/>
+        <div>
+          
+        </div>
           <p
             style={{
               color: "#ff6600",
