@@ -16,38 +16,15 @@ export default function ServoCoverPage() {
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(280px, 1fr))",
           gap: "34px",
-          alignItems: "start",
+          alignItems: "center",
         }}
       >
-        <div
-          style={{
-            display: "flex",
-            flexDirection: "column",
-            gap: "24px",
-          }}
-        >
+        <div>
           <img
-            src="/images/servo-cover-v4.jpg"
-            alt="Servo Cover"
+            src="/images/canopystifte-v3.jpg"
+            alt="Canopy Pins"
             style={{
               width: "100%",
-              maxHeight: "500px",
-              objectFit: "contain",
-              borderRadius: "18px",
-              border: "1px solid rgba(255,102,0,0.2)",
-              background: "#111",
-              padding: "10px",
-              boxSizing: "border-box",
-            }}
-          />
-
-          <img
-            src="/images/servo-cover-inst.jpg"
-            alt="Servo Cover Installation"
-            style={{
-              width: "100%",
-              maxHeight: "500px",
-              objectFit: "contain",
               borderRadius: "18px",
               border: "1px solid rgba(255,102,0,0.2)",
               background: "#111",
@@ -78,7 +55,7 @@ export default function ServoCoverPage() {
               marginBottom: "20px",
             }}
           >
-            Servo-Cover Set
+            Canopy Pins
           </h1>
 
           <p
@@ -88,9 +65,9 @@ export default function ServoCoverPage() {
               fontSize: "clamp(15px, 4vw, 18px)",
             }}
           >
-            Aerodynamische Servo-Abdeckungen für die ASW 28 V2. Entwickelt für
-            bessere Aerodynamik, saubere Integration und zusätzlichen Schutz der
-            Servobereiche.
+            Aerodynamische Servo-Abdeckungen für die ASW 28 V2.
+            Entwickelt für bessere Aerodynamik, saubere Integration
+            und zusätzlichen Schutz der Servobereiche.
           </p>
 
           <div
@@ -102,7 +79,9 @@ export default function ServoCoverPage() {
               padding: "20px",
             }}
           >
-            <h3 style={{ color: "#ff6600", marginTop: 0 }}>Eigenschaften</h3>
+            <h3 style={{ color: "#ff6600", marginTop: 0 }}>
+              Eigenschaften
+            </h3>
 
             <ul
               style={{
