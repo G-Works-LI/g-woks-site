@@ -113,7 +113,7 @@ export default function Home() {
           </p>
 
           <img
-            src="/images/modell-asw-28-v2-volantex-v3.jpg"
+            src="/images/modell-asw-28-v2-volantex-v4.jpg"
             alt="Volantex ASW 28 V2"
             style={{
               width: "100%",
