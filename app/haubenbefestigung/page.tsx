@@ -21,7 +21,7 @@ export default function HaubenbefestigungPage() {
       </h1>
 
       <img
-        src="/images/haubenbefestigung-federmechanismus-v3.jpg"
+        src="/images/haubenbefestigung-hinten-und-vorne-v3.jpg"
         alt="Haubenbefestigung"
         style={{
           width: "100%",
