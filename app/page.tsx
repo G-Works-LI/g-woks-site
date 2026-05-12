@@ -26,7 +26,7 @@ const products = [
   },
 
   {
-    title: "",
+    title: "Servo-Cover",
     text: "SERVO-COVER SET - ASW 28 V2.",
     image: "/images/servo-cover-v5.jpg",
     link: "/products/servo-cover",
@@ -133,7 +133,7 @@ export default function Home() {
           lineHeight: 1,
         }}
       >
-        Servo-Cover Set
+       
       </h1>
     </div>
   </div>
