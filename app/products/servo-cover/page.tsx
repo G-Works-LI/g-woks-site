@@ -1,3 +1,5 @@
+const isMobile =
+  typeof window !== "undefined" && window.innerWidth < 768;
 export default function ServoCoverPage() {
   return (
     <main
@@ -20,20 +22,20 @@ export default function ServoCoverPage() {
         }}
       >
         
-        <div>
-          <img
-            src="/images/servo-cover-v4.jpg"
-            alt="Servo Cover"
-            style={{
-              width: "100%",
-              borderRadius: "18px",
-              border: "1px solid rgba(255,102,0,0.2)",
-              background: "#111",
-              padding: "10px",
-              boxSizing: "border-box",
-            }}
-          />
-
+        <img
+  src="/images/servo-cover-v4.jpg"
+  alt="Servo Cover"
+  style={{
+    width: "100%",
+    maxHeight: isMobile ? "320px" : "500px",
+    objectFit: "contain",
+    borderRadius: "18px",
+    border: "1px solid rgba(255,102,0,0.2)",
+    background: "#111",
+    padding: "10px",
+    boxSizing: "border-box",
+  }}
+/>
         <div>
           <p
             style={{
